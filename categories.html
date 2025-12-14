@@ -1,0 +1,43 @@
+<!-- ====================================== -->
+<!-- FILE 2: categories.html -->
+<!-- ====================================== -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Catalog - Bisani Pharmaceuticals</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="catalog-page">
+    <div class="container" id="catalogContainer">
+        <div class="header" id="catalogHeader">
+            <div class="header-logo">
+                <img src="assets/logo.jpeg" alt="Bisani Pharmaceuticals" class="header-logo-img">
+            </div>
+            <h1 id="pageTitle">Categories</h1>
+            <div class="search-box" id="searchBox" style="display: none;">
+                <input type="text" id="searchInput" placeholder="Search products...">
+            </div>
+            <div class="header-actions">
+                <a href="index.html" class="home-btn">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                        <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                    </svg>
+                    Home
+                </a>
+                <button class="back-btn" id="backBtn" style="display: none;" onclick="goBack()">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="19" y1="12" x2="5" y2="12"></line>
+                        <polyline points="12 19 5 12 12 5"></polyline>
+                    </svg>
+                    Back
+                </button>
+            </div>
+        </div>
+        <div id="main"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
