@@ -49,7 +49,7 @@ const data = {
 
     "Dentist": [
         "Bispan", "GIKool", "Inflecheck", "Pirobis",
-        "Rabihope 20", "Rabihope DSR"
+        "Rabihope 20", "Rabihope DSR", "Inflecheck SP"
     ]
 };
 
@@ -409,3 +409,4 @@ window.closeViewer = closeViewer;
 window.closeSpecialityViewer = closeSpecialityViewer;
 window.goBack = goBack;
 window.goHome = goHome;
+
