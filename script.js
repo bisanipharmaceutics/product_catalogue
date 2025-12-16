@@ -29,27 +29,31 @@ const data = {
     ],
 
     "Pediatrician": [
-        "Apihope", "Betacef", "Biscal", "Cefbis O", "Cuffex",
-        "Cuffex T", "Emprovit", "Leehope 500"
+        "Apihope", "Betacef", "Biscal", "Cuffex",
+        "Cuffex T", "Emprovit", "Levohope M",
+        "Mefebis DS", "Nutrihope"
     ],
 
     "Orthopedic": [
-        "Betacef", "Biscal", "Bispan", "GIKool", "Inflecheck",
+        "Betacef", "Biscal", "Bispan", "Cefbis O", "Emprovit",
+        "GIKool", "Inflecheck", "Inflecheck SP", "Inflecheck T",
         "Leehope 500", "Nutrihope", "Nutrihope Gold",
-        "Picosulf Syrup", "Rabihope 20", "Rabihope DSR"
+        "Pericalm", "Picosulf Syrup", "Pirobis",
+        "Rabihope 20", "Rabihope DSR", "Rabihope L", "Relaxfull"
     ],
 
     "Gynaecologist": [
         "Apihope", "Betacef", "Biscal", "Bispan", "Cefbis O",
-        "Cuffex", "Cuffex T", "Emprovit", "Ferich XT", "GIKool",
-        "Leehope 500", "Nutrihope", "Nutrihope Gold",
-        "Picosulf Syrup", "Rabihope 20", "Rabihope DSR",
-        "Rabihope L"
+        "Cuffex", "Cuffex T", "Emprovit", "Ferich XT",
+        "GIKool", "Inflecheck", "Inflecheck SP",
+        "Leehope 500", "Levohope M", "Nutrihope",
+        "Nutrihope Gold", "Picosulf Syrup",
+        "Rabihope 20", "Rabihope DSR", "Rabihope L"
     ],
 
     "Dentist": [
-        "Bispan", "GIKool", "Inflecheck", "Pirobis",
-        "Rabihope 20", "Rabihope DSR", "Inflecheck SP"
+        "Bispan", "GIKool", "Inflecheck",
+        "Pirobis", "Rabihope 20", "Rabihope DSR"
     ]
 };
 
@@ -409,4 +413,5 @@ window.closeViewer = closeViewer;
 window.closeSpecialityViewer = closeSpecialityViewer;
 window.goBack = goBack;
 window.goHome = goHome;
+
 
