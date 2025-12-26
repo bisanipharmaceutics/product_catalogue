@@ -168,7 +168,7 @@ function renderSpecialityViewer() {
     
     const html = `
         <div class="viewer-header">
-            <img class="logo" src="assets/logo.jpeg" alt="Logo">
+            <img class="logo" src="assets/bisani_pharmaceutics_logo_without_caption_black_bg.png" alt="Logo">
             <div class="header-buttons">
                 <button onclick="goHome()">Home</button>
                 <button onclick="closeSpecialityViewer()">Close</button>
@@ -303,7 +303,7 @@ function renderViewer() {
 
     const html = `
         <div class="viewer-header">
-            <img class="logo" src="assets/logo.jpeg" alt="Logo">
+            <img class="logo" src="assets/bisani_pharmaceutics_logo_without_caption_black_bg.png" alt="Logo">
             <div class="header-buttons">
                 <button onclick="goHome()">Home</button>
                 <button onclick="closeViewer()">Close</button>
@@ -413,5 +413,3 @@ window.closeViewer = closeViewer;
 window.closeSpecialityViewer = closeSpecialityViewer;
 window.goBack = goBack;
 window.goHome = goHome;
-
-
